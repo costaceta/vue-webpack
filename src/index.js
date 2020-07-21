@@ -1,5 +1,5 @@
-const name = (item) => {
-  return `Meu nome é: ${item}`;
-};
+import Vue from 'vue/dist/vue'
 
-console.log(name("Francisco Costa"));
+new Vue({
+  el: '#app'
+})
